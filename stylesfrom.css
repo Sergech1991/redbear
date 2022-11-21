@@ -1,0 +1,89 @@
+/* User styles */
+html {
+	background-color: #191919;
+}
+
+
+/* @media screen and (min-width: 911px) { */
+  .ant-carousel {
+    max-width: 1108px;
+  }
+
+
+.ant-carousel {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-top: 10px;
+  background-color: #191919;
+}
+
+.ant-carousel-element {
+  width: 254px;
+  height: 254px;
+  margin-right: 25px;
+  border: 2px solid #fff;
+}
+
+.ant-carousel-element  img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* General styles */
+.ant-carousel {
+  width: auto;
+  position: relative;
+}
+
+.ant-carousel-hider {
+  overflow: hidden;
+}
+
+.ant-carousel-list {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ant-carousel-element {
+  display: block;
+  flex: 0 0 auto;
+}
+
+/* Navigation item styles */
+div.ant-carousel-arrow-left,
+div.ant-carousel-arrow-right {
+  width: 50px;
+  height: 105px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 32;
+  border: 1px solid #fff;
+}
+
+div.ant-carousel-arrow-left {
+  left: -96px;
+  top: 31%;
+  display: block;
+  background: url("images/left-arrow.jpg") no-repeat;
+  background-position: center center;
+  background-color: #fa0000;
+}
+
+div.ant-carousel-arrow-right {
+  right: -96px;
+  top: 31%;
+  display: block;
+  background: url("images/right-arrow.jpg") no-repeat;
+  background-position: center center;
+  background-color: #fa0000;
+}
+
+div.ant-carousel-arrow-left:hover, div.ant-carousel-arrow-right:hover  {
+  transform: scale(1.05);
+  border: 2px solid #fff;
+}
